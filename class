@@ -1,0 +1,12 @@
+class students:
+    def _init_ (self,ID,NAME):
+        self.ID = ID
+        self.NAME =NAME
+    def display_students(self):
+        print('ID=', self.ID,'NAME=', self.NAME)
+
+S1=students(101,"rahul")
+S2=students(102,"Amit")
+
+S1.display_students()
+S2.display_students(
